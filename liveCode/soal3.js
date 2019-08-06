@@ -26,13 +26,13 @@ Output:
  */
 
 var height = 5;
-var display = '';
 
-for(i=1; i<=height; i++){
+
+for(var i=1; i<=height; i++){
+    var display = '';
     for(j=i; j<=height ; j++){
         display = display + j;
     }
     console.log (display);
-    display= '';
     
 }
