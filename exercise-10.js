@@ -1,7 +1,7 @@
 function perkalianUnik(arr) {
   // you can only write your code here!
     var nilai =1;
-    var display = '';
+    var display = [];
     for(i=0 ; i<=arr.length-1 ; i++){
         for(j=0 ; j<=arr.length-1 ; j++){
             if (i != j){
@@ -9,7 +9,7 @@ function perkalianUnik(arr) {
                 // console.log(nilai)
             }
         }
-        display += nilai + " ";
+        display.push(nilai);
         nilai = 1;
     }
     return display;
