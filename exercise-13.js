@@ -32,11 +32,9 @@ function targetTerdekat(arr) {
   
       }
       if (terkecil == arr.length){
-          return 0;
+          terkecil = 0;
       }
-      else{
         return terkecil;
-      }
   }
   
   // TEST CASES
